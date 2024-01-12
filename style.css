@@ -1,3 +1,111 @@
+html {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: green;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    position: fixed;
+    background-color: transparent;
+    padding-left: 2rem;
+    align-items: center;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    color: red;
+    transition-duration: 0.5s;
+}
+
+/* SECTION COMPONENTS */
+
+.secSize {
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    height: 100vh;
+    width: 99vw;
+}
+
+.LearnMore {
+    border: 3px solid white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    max-width: 150px;
+    color: white;
+    background-color: transparent;
+    text-underline-offset: 0.5rem;
+}
+
+.LearnMore:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.secDiv {
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.secDiv h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.secDiv h2 {
+    font-weight: 100;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Mona Section */
+
+.Mona {
+    background-image: url('https://wallpapercave.com/wp/wp2731633.jpg');
+ 
+}
+
+
+.David {
+    background-image: url('https://wallpapercave.com/wp/wp4196579.jpg');
+
+}
+
+.Salvator {
+    background-image: url('https://static01.nyt.com/images/2019/03/31/arts/31salvatormundi-p1/merlin_143217627_22140469-8c33-4795-a6a3-6f6ae5fde80d-superJumbo.jpg');
+}
+
+.Pietà {
+    background-image: url('https://stpetersbasilica.info/Altars/Pieta/Pieta-GMR_6315.jpg');
 }
