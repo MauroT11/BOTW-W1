@@ -39,7 +39,7 @@ li a {
 li a:hover {
     text-decoration: underline;
     text-underline-offset: 0.5rem;
-    color: red;
+    color: gold;
     transition-duration: 0.5s;
 }
 
@@ -89,7 +89,7 @@ li a:hover {
     margin-bottom: 2rem;
 }
 
-/* Mona Section */
+/* Section Images */
 
 .Mona {
     background-image: url('./assets/MonaLisa.jpg');
@@ -107,4 +107,19 @@ li a:hover {
 
 .Pietà {
     background-image: url('./assets/pieta.jpg');
+}
+
+/* FOOTER */
+
+footer {
+    height: 10vh;
+    background-color: black;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
 }
