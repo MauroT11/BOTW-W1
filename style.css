@@ -92,20 +92,19 @@ li a:hover {
 /* Mona Section */
 
 .Mona {
-    background-image: url('https://wallpapercave.com/wp/wp2731633.jpg');
+    background-image: url('/assets/MonaLisa.jpg');
  
 }
 
-
 .David {
-    background-image: url('https://wallpapercave.com/wp/wp4196579.jpg');
+    background-image: url('./assets/David.webp');
 
 }
 
 .Salvator {
-    background-image: url('https://static01.nyt.com/images/2019/03/31/arts/31salvatormundi-p1/merlin_143217627_22140469-8c33-4795-a6a3-6f6ae5fde80d-superJumbo.jpg');
+    background-image: url('./assets/salvatorMundi.jpg');
 }
 
 .Pietà {
-    background-image: url('https://stpetersbasilica.info/Altars/Pieta/Pieta-GMR_6315.jpg');
+    background-image: url('./assets/pieta.jpg');
 }
